@@ -47,7 +47,7 @@ rm -rf html_docs; mkdir -p html_docs; cp -rp doc/* html_docs/; find html_docs -n
 
 %build
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --with-apxs=%{_sbindir}/apxs
         
 %make
