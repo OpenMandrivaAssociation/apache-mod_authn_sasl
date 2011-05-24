@@ -7,7 +7,7 @@
 Summary:	User authentication using Cyrus libsasl2 password verification service
 Name:		apache-%{mod_name}
 Version:	1.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Servers
 License:	Apache License
 URL:		http://sourceforge.net/projects/mod-authn-sasl/
