@@ -37,7 +37,7 @@ checking backends.
 
 cp %{SOURCE1} %{mod_conf}
 
-find -type f -exec dos2unix -U {} \;
+find -type f -exec dos2unix {} \;
 
 # fix borked test
 perl -pi -e "s|ap_httpd_version=.*|ap_httpd_version=\"2\.2\"|g" configure
