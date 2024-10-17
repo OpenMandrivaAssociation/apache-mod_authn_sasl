@@ -10,7 +10,7 @@ Version:	1.2
 Release:	2
 Group:		System/Servers
 License:	Apache License
-URL:		http://sourceforge.net/projects/mod-authn-sasl/
+URL:		https://sourceforge.net/projects/mod-authn-sasl/
 Source0:	http://dfn.dl.sourceforge.net/sourceforge/mod-authn-sasl/%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
